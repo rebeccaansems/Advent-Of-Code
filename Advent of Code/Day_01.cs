@@ -10,7 +10,12 @@ namespace Advent_of_Code
     {
         public void Run(List<string> data)
         {
-            Console.WriteLine(data[0]);
+            int num = 0;
+            foreach (string instruction in data)
+            {
+                num += Int32.Parse(instruction);
+            }
+            Console.WriteLine("Answer: " + num);
         }
     }
 }

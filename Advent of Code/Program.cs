@@ -34,12 +34,13 @@ namespace Advent_of_Code
         static List<string> ReadData(String fileName)
         {
             List<string> data = new List<string>();
-            var fileStream = new FileStream(
-                @"C:\Users\User\Source\Repos\Advent of Code\Advent of Code\Data"+fileName+".txt", 
-                FileMode.Open, FileAccess.Read);
-            using (StreamReader sr = new StreamReader(fileStream))
+            using (StreamReader sr = new StreamReader(@"C:\Users\User\Source\Repos\Advent of Code\Advent of Code\Data" + fileName + ".txt"))
             {
-                data.Add(sr.ReadLine());
+                string line;
+                while ((line = sr.ReadLine()) != null)
+                {
+                    data.Add(line);
+                }
             }
             return data;
         }
