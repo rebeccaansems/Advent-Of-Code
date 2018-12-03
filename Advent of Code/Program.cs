@@ -12,13 +12,8 @@ namespace Advent_of_Code
     {
         static void Main(string[] args)
         {
-            ConsoleKeyInfo key1, key2;
-
-            key1 = Console.ReadKey();
-            key2 = Console.ReadKey();
-            Console.ReadKey();
-
-            CallMethod("Day_" + key1.KeyChar + key2.KeyChar, "Run");
+            string line = Console.ReadLine();
+            CallMethod("Day_" + line, "Run");
 
             Console.ReadKey();
         }

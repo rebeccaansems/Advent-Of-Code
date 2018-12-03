@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Advent_of_Code
 {
-    public class Day_01
+    public class Day_01A
     {
         public void Run(List<string> data)
         {
