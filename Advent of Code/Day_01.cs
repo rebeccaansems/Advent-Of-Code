@@ -8,9 +8,9 @@ namespace Advent_of_Code
 {
     public class Day_01
     {
-        public void Run(string data)
+        public void Run(List<string> data)
         {
-            Console.WriteLine(data);
+            Console.WriteLine(data[0]);
         }
     }
 }

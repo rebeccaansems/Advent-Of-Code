@@ -31,15 +31,15 @@ namespace Advent_of_Code
             methodInfo.Invoke(obj, new object[1] { ReadData(fileName) });
         }
 
-        static string ReadData(String fileName)
+        static List<string> ReadData(String fileName)
         {
-            string data = "";
+            List<string> data = new List<string>();
             var fileStream = new FileStream(
                 @"C:\Users\User\Source\Repos\Advent of Code\Advent of Code\Data"+fileName+".txt", 
                 FileMode.Open, FileAccess.Read);
             using (StreamReader sr = new StreamReader(fileStream))
             {
-                data += sr.ReadToEnd();
+                data.Add(sr.ReadLine());
             }
             return data;
         }
