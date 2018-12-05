@@ -60,16 +60,11 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="DataDay_02B.txt" />
-    <Content Include="DataDay_02A.txt" />
-    <Content Include="DataDay_01B.txt" />
-    <Content Include="DataDay_01A.txt" />
-    <Content Include="DataDay_03A.txt" />
-    <Content Include="DataDay_03B.txt" />
-    <Content Include="DataDay_04A.txt" />
-    <Content Include="DataDay_04B.txt" />
-    <Content Include="DataDay_05A.txt" />
-    <Content Include="DataDay_05B.txt" />
+    <Content Include="DataDay_02.txt" />
+    <Content Include="DataDay_01.txt" />
+    <Content Include="DataDay_03.txt" />
+    <Content Include="DataDay_04.txt" />
+    <Content Include="DataDay_05.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
