@@ -42,12 +42,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Day_0.cs" />
     <Compile Include="Day_01B.cs" />
     <Compile Include="Day_01A.cs" />
     <Compile Include="Day_02A.cs" />
     <Compile Include="Day_02B.cs" />
     <Compile Include="Day_03A.cs" />
     <Compile Include="Day_03B.cs" />
+    <Compile Include="Day_04A.cs" />
+    <Compile Include="Day_04B.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -61,6 +64,8 @@
     <Content Include="DataDay_01A.txt" />
     <Content Include="DataDay_03A.txt" />
     <Content Include="DataDay_03B.txt" />
+    <Content Include="DataDay_04A.txt" />
+    <Content Include="DataDay_04B.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
